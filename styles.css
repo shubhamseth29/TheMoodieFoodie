@@ -1,0 +1,61 @@
+body{
+    background-image: url(black.jpg)
+}
+mark{
+    /* background-color: coral */
+    
+}
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) url(food.jpg)
+ }
+  .jumbotron{
+      margin-top: 9%;
+    background-image: url(blur4.png) 
+    
+    
+    }
+    h1{
+        text-shadow: 3px 2px red;
+        text-align: center
+    }  
+    h2{
+        text-shadow: 3px 2px red;
+        text-align: center;
+    }
+    h3{
+        text-shadow: 5px 3px crimson;
+        text-align: center;
+        
+    }
+
+.vertical-center{
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center; 
+}
+.jumbotron vertical-center{
+    background: rgba(0,0,0,0.2)
+    box-shadow:5px 4px 43px #000;
+    position: absolute;
+    top:80px;
+    left:200px;
+}
+.container{
+    @font-face {
+        font-family: 'Cabin Sketch',cursive ;
+        src: url(cabin_sketch/CabinSketch-Bold.ttf);
+    }
+}
+
+a{
+    margin-left: 31%;
+    text-decoration: underline;
+}
+hr{
+    size: 100px;
+}
+img{
+    margin-left: 35%
+}
+
